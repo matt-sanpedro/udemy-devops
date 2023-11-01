@@ -48,4 +48,47 @@ A course on DevOps from Udemy
 
 ## Continuous Integration
 - version control system: centralized code repository
-- artifact repo stored in 
+- artifact repo stored in
+- software in test environment is loaded into build server
+    * built
+    * tested
+    * evaluated
+- when code is built in pipeline, stored as artifact repository in formats:
+    * WAR/JAR
+    * DLL/EXE/MSI
+    * ZIP/TAR
+- code can be merged into repository but NOT integrated, can lead to many bugs, errors, deploy problems
+- SOLUTION: for every commit build and test
+    * defects caught as soon as code is merged
+    * goal is to detect defects at early stages
+
+## Tools
+- IDEs for coding
+    * ecplise
+    * visual studio
+    * atom
+    * pycharm
+- version control
+    * git
+    * svn
+    * tfs
+    * perforce
+- build tools (based on programming language)
+    * maven, ant, gradle
+    * msbuild, visual build
+    * IBM urban code
+    * make
+    * grunt
+- software repository to store artifacts
+    * sonatype nexus
+    * jfrog artifactory
+    * archiva
+    * cloudsmith package
+    * grunt
+- CI tools
+    * jenkins
+    * circleci
+    * teamcity
+    * bamboo ci
+    * cruise control
+    
