@@ -46,7 +46,7 @@ A course on DevOps from Udemy
 - user approval/feedback
 - continous monitoring
 
-## Continuous Integration
+## Continuous Integration (CI)
 - version control system: centralized code repository
 - artifact repo stored in
 - software in test environment is loaded into build server
@@ -62,7 +62,7 @@ A course on DevOps from Udemy
     * defects caught as soon as code is merged
     * goal is to detect defects at early stages
 
-## Tools
+## Tools for CI
 - IDEs for coding
     * ecplise
     * visual studio
@@ -91,4 +91,26 @@ A course on DevOps from Udemy
     * teamcity
     * bamboo ci
     * cruise control
+
+## Continuous Delivery (CD)
+- operations and development solve issues with code deployment
+- code deployment entails:
+    * server provisioning
+    * dependencies
+    * conf changes
+    * network
+    * artifact deploy
+
+## Automation Tools for DevOps SDLC
+- system: ansible, puppet, chef
+- cloud infrastructure: terraform, cformation
+- CI/CD automation: jenkins, octopus deploy
+- helm charts
+- code deploy
+- Test Automation
+    * functional
+    * load
+    * performance
+    * db
+    * security
     
