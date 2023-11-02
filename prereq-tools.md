@@ -25,3 +25,4 @@
 - IAM with MFA
 - billing alarm
 - certificate setup
+- AWS client log in URL: https://abcreviews.signin.aws.amazon.com/console
